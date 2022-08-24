@@ -12,11 +12,9 @@
   "files": [
     "dist"
   ],
-  "dependencies": {
-    "tap": "^16.3.0",
-    "uncino": "^0.0.1"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "tap": "^16.3.0",
     "esbuild": "^0.15.5",
     "rollup": "^2.78.1",
     "rollup-plugin-esbuild": "^4.9.3"
