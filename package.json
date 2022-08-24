@@ -1,0 +1,23 @@
+{
+  "name": "uncino",
+  "version": "0.0.1",
+  "description": "Fast, tiny and solid hooks system for Javascript",
+  "main": "src/index.js",
+  "author": "Riccardo Tartaglia",
+  "license": "MIT",
+  "scripts": {
+    "test": "tap \"test/**/*.test.mjs\" --jobs=1",
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "tap": "^16.3.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.15.5",
+    "rollup": "^2.78.1",
+    "rollup-plugin-esbuild": "^4.9.3"
+  }
+}
