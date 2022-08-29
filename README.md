@@ -11,10 +11,10 @@ Do you know Wordpress hooks system? Uncino is a hook system highly inspired to i
 ## Quick example
 
 ```js index.js
-const uncino = require('uncino/dist/uncino')
+const uncino = require('uncino')
 const hooks = uncino()
 
-async function start(){
+async function start() {
   hooks.addHook('test', 'namespace', async (number) => {
     return number + 10
   }, 1)
