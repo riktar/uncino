@@ -1,6 +1,6 @@
 {
   "name": "uncino",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Fast, tiny and solid hooks system for Javascript",
   "main": "dist/uncino.js",
   "author": "Riccardo Tartaglia",
