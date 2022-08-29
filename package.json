@@ -2,12 +2,12 @@
   "name": "uncino",
   "version": "0.0.3",
   "description": "Fast, tiny and solid hooks system for Javascript",
-  "main": "uncino.js",
+  "main": "dist/uncino.js",
   "author": "Riccardo Tartaglia",
   "license": "MIT",
   "scripts": {
     "test": "tap \"test/**/*.test.mjs\" --jobs=1",
-    "build": "rollup -c"
+    "build": "npm test && rollup -c"
   },
   "files": [
     "dist"

@@ -6,12 +6,6 @@ export default [
     plugins: [esbuild()],
     output: [
       {
-        file: `dist/uncino-es.js`,
-        format: 'es',
-        sourcemap: false,
-        exports: 'default'
-      },
-      {
         file: `dist/uncino.js`,
         format: 'cjs',
         sourcemap: false,
