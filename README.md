@@ -19,9 +19,13 @@ async function start() {
     return number + 10
   }, 1)
 
+  hooks.addHook('test', 'namespace', async (number) => {
+    return number + 20
+  }, 2)
+
   const myNumber = 3
   const newNumber = await hooks.runHook('test', myNumber)
-  console.log(myNumber, newNumber) // 3 13
+  console.log(myNumber, newNumber) // 3 33
 }
 
 start()
