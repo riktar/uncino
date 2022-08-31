@@ -1,7 +1,7 @@
 'use strict'
 
 import {test} from 'tap'
-import uncino from '../src/index.mjs';
+import uncino from '../src/uncino.mjs';
 
 
 test('uncino add action', async (t) => {
