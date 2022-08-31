@@ -73,7 +73,7 @@ Method Name             | Arguments                                    | Descrip
 `removeAction`          | `actionName, namespace`                      | Remove hook for `actionName` in `namespace`
 `hasAction `            | `actionName, namespace`                      | Check if hook for `actionName` in `namespace` exists
 `removeAllActions`      | `actionName`                                 | Remove all actionss for `actionName`
-`runAction`             | `actionName, params`                         | Run action for `actionName` with `params`.  It returns `void`
+`runAction`             | `actionName, params`                         | Run action for `actionName` with `params`.  It returns a `Promise` with void value
 
 ## Example
 Clone the repo and look in the `test` folder

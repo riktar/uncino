@@ -1,9 +1,10 @@
 {
   "name": "uncino",
   "version": "1.0.0",
-  "description": "Fast, tiny and solid hooks system for Javascript",
+  "description": "Fast, tiny and solid hooks system for Javascript and Node.js",
   "main": "dist/uncino.js",
   "author": "Riccardo Tartaglia",
+  "repository": "https://github.com/riktar/uncino",
   "license": "MIT",
   "scripts": {
     "test": "tap \"test/**/*.test.mjs\" --jobs=1",
