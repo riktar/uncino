@@ -1,6 +1,6 @@
 # Uncino 🪝
 
-> Fast, tiny and solid hooks system for Javascript
+> Fast, tiny and solid hooks system for Javascript and NodeJS
 > 
 > **Uncino** is italian word for *hook*
 
