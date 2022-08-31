@@ -81,11 +81,11 @@ Clone the repo and look in the `test` folder
 ## Develop
 Clone the repo then use `npm install` for download all the dependencies then launch `npm run build` for build the project
 
-### Pull Requests?
+## Pull Requests?
 I'd love them!
 
-### Comments?
+## Comments?
 Let's hear them! (The nice ones please!)
 
-### Me?
+## Me?
 In case you're interested I'm [@riktarweb](http://twitter.com/riktarweb)
