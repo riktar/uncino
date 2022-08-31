@@ -51,7 +51,7 @@ Uncino has two types of hooks: **Actions and Hooks**. To use either, you need to
 
 **Actions** allow you to add data or change how your code operates. Actions will run at a specific point in the execution. Callback functions for Actions can perform some kind of a task, like echoing output to the user or inserting something into the database. Callback functions for an Action do not return anything back to the calling Action hook.
 
-**Hooks** give you the ability to change data during the execution of your code. Callback functions for Hooks will accept a variable, modify it, and return it. They are meant to work in an isolated manner, and should never have side effects such as affecting global variables and output. Filters expect to have something returned back to them.
+**Hooks** give you the ability to change data during the execution of your code. Callback functions for Hooks will accept a variable, modify it, and return it. They are meant to work in an isolated manner, and should never have side effects such as affecting global variables and output. Hooks expect to have something returned back to them.
 
 With Uncino you can create your own hook spots so that other developers can extend and modify your code or you can create your pluggable core.
 
