@@ -4,7 +4,7 @@
 > 
 > **Uncino** is italian word for *hook*
 
-![Uncino - Fast, tiny and solid hooks system for Javascript and NodeJS](https://argonauta.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1662032725209%2F-hgyTmeyd.jpg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75)
+![Uncino - Fast, tiny and solid hooks system for Javascript and NodeJS](https://cdn.hashnode.com/res/hashnode/image/upload/v1662032725209/-hgyTmeyd.jpg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)
 
 Do you know Wordpress hooks system? Uncino is a hooks system highly inspired to it!
 
